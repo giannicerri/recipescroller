@@ -1,0 +1,21 @@
+body {
+  background-color: #1c1f24;
+}
+
+button {
+    background-color: lightgreen;
+    /* height: 30px; */
+    /* width: 60px; */
+    display: inline-block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+  }

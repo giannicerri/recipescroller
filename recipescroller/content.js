@@ -40,3 +40,6 @@ function scrollToRecipe() {
 
 
 scrollToRecipe();
+chrome.storage.sync.get("recipeSetting", (data) => {
+    console.log(data.recipeSetting);
+});

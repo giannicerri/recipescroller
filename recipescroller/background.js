@@ -1,11 +1,11 @@
 //testing
 
-function helloWorld() {
-    console.log("Hello, World! But from a click this time!");
-}
+let recipeSetting = "click"
 
 chrome.runtime.onInstalled.addListener(() => {
     console.log("Hello, World!");
+    chrome.storage.sync.set({ recipeSetting });
+    //console.log('Default search type set to %cgreen', `color: ${recipeSetting}`);
 })
 
 chrome.action.onClicked.addListener((tab) => {

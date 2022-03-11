@@ -1,5 +1,8 @@
 //js for options.html page
 
+//in short: loop through presetSettings and construct a button for each one, append to buttonDiv.
+// then set up a handler for button click: unhighlight old one, highlight new selection, store new setting
+
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
 const presetSettings = ["click", "autoscroll", "autopopup"];

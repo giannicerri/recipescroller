@@ -12,12 +12,36 @@
         "storage"
     ],
     "action": {
-        "default_popup": "/popup/popup.html",
         "default_icon": {
             "16": "/images/fork16.png",
             "32": "/images/fork32.png",
             "128": "/images/fork128.png"
         }
     },
-    "options_page": "/options/options.html"
+    "options_page": "/options/options.html",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "js": [
+                "sidebar.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "popup/popup.html"
+            ],
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "extension_ids": [
+                "lmikooicfpmcdnbgijmpjiemljmopojc"
+            ]
+        }
+    ]
 }

@@ -38,7 +38,6 @@ function scrollToRecipe() {
 //var element = document.getElementById(document.querySelector('[id^="wprm-recipe-container-"]').id);
 //element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 
-
 scrollToRecipe();
 chrome.storage.sync.get("recipeSetting", (data) => {
     console.log(data.recipeSetting);

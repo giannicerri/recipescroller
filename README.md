@@ -18,7 +18,7 @@ Go to a website with a recipe card on it. Click the button. idk what to tell you
 # Dev Notes
 
 Websites confirmed not working:
-themodernproper, foodandwine, delish, bbcgoodfood, taste.com, tablespoon, food52, barefoot contessa
+themodernproper, taste.com, tablespoon, food52, barefoot contessa
 
 Working with issues:
 Allrecipes, Taste of Home, Simply Recipes

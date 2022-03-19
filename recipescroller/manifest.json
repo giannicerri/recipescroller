@@ -43,5 +43,21 @@
                 "lmikooicfpmcdnbgijmpjiemljmopojc"
             ]
         }
-    ]
+    ],
+    "commands": {
+        "open-sidebar": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+1",
+                "mac": "Command+Shift+1"
+            },
+            "description": "Open RecipeScroller on the current page."
+        },
+        "find-recipe": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+2",
+                "mac": "Command+Shift+2"
+            },
+            "description": "Find recipe on the current page."
+        }
+    }
 }

@@ -14,6 +14,7 @@ For Chrome users:
 # Use
 
 Go to a website with a recipe card on it. Click the button. idk what to tell you.
+Shortcuts: Ctrl/Cmd+Shift+1 to toggle sidebar, Ctrl/Cmd+Shift+2 to find recipe on page.
 
 # Dev Notes
 

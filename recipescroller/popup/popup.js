@@ -2,6 +2,7 @@
 
 // Initialize button
 let findRecipe = document.getElementById("findRecipe");
+let saveRecipe = document.getElementById("saveRecipe");
 
 /*
 chrome.storage.sync.get("color", ({ color }) => {
@@ -16,6 +17,15 @@ findRecipe.addEventListener("click", async () => {
     chrome.scripting.executeScript({
         target: { tabId: tab.id },
         files: ['content.js'],
+    });
+});
+
+saveRecipe.addEventListener("click", async () => {
+    let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+
+    chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        files: ['saverecipe.js'],
     });
 });
 

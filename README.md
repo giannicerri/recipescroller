@@ -23,5 +23,5 @@ themodernproper, taste.com, tablespoon, food52, barefoot contessa
 Working with issues:
 Allrecipes, Taste of Home, Simply Recipes
 
-Need to do:
-Icons, Name, keyboard shortcut, popup/options
+# Upcoming Features
+Keyboard shortcuts, Improved recipe detection, Options & settings, Save recipe
